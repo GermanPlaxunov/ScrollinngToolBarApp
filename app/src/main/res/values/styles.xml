@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolBarStyle">
+        <item name="android:theme">@style/ToolBarTheme</item>
+        <item name="android:background">@color/purple_700</item>
+        <item name="android:elevation">8dp</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="toolbarNavigationButtonStyle">@style/ToolBarNavigationStyle</item>
+    </style>
+
+
+
+    <style name="ToolBarNavigationStyle" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToolBarApp</string>
+
+    <string name="menu_action_1">action 1</string>
+    <string name="menu_action_2">action 2</string>
+    <string name="menu_action_3">action 3</string>
+</resources>
